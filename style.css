@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    text-align: justify;
 }
 h1{
     font-weight:700;
@@ -34,11 +35,29 @@ span{
     text-align: justify;
     font-weight: 700;
     border-radius: 30px;
+    box-shadow: 5px 5px 30px tomato;
 }
 .banner-bottom{
-    background-image: url(images/female/Frame\ 57.png);
-    background-size: cover;
+    display: flex;
+    background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    
-    height: 650px;
+    background-position: center;
+    background-size: 100%;
 }
+.banner-medil img{
+    width: 100%;
+}
+.half-width-2{
+    margin-right: 300px;
+    width: 100%;
+}
+.recipes{
+    margin-top: 100px;
+    text-align: center;
+}
+.recipes h1{
+    color: grey;
+    font-size: 45px;
+}
+
+
