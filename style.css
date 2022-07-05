@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight:700;
+    font-size: 70px;
+}
+span{
+    color: #f38c47;
+}
+.top-banner{
+    color: rgb(105, 103, 103);
+    margin-left: 90px;
+    }
+.top-banner{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner h1{
+    margin-top: 220px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#f0a212, rgb(221, 77, 51));
+    padding: 20px 40px;
+    color: white;
+    text-align: justify;
+    font-weight: 700;
+    border-radius: 30px;
+}
+.banner-bottom{
+    background-image: url(images/female/Frame\ 57.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 650px;
+}
